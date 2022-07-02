@@ -1,0 +1,127 @@
+body {
+    box-sizing: border-box;
+    }
+
+  .nav {
+   
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .nav_links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+  }
+  .nav_links a {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 40px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .nav ul button {
+    margin-left: 15px;
+  }
+  .logo {
+    padding-top: 10px;
+  }
+  .text {
+    margin-top: 50px;
+    margin-left: 180px;
+  }
+  .upper .text .link1 {
+    text-decoration: none;
+    font-size: 14px;
+    color: #f0a00d;
+  }
+  .text h1 span {
+    color: #056d05;
+  }
+  .nav_links .btn {
+    border-radius: 30px;
+  }
+  .text .btn {
+    border-radius: 30px;
+  }
+  .content {
+    display: flex;
+  }
+  
+  .upper {
+    background-color: #e0f0e0;
+    height: 500px;
+  }
+  .offcanvas {
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: aliceblue;
+  }
+  
+  .items {
+    margin: 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    align-items: center;
+  }
+  .items #box-shadow {
+    box-shadow: -1px 4px 17px 2px rgba(141, 121, 121, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+  }
+  
+  @media (max-width: 700px) {
+      .upper .nav a img {
+        width: 70;
+        height: 20;
+        }
+      
+    .nav_links a {
+      font-size: 12px;
+    }
+    .nav_links {
+      justify-content: space-evenly;
+    }
+    .content .text h1 {
+      font-size: 14px;
+    }
+    .content .text p {
+      font-size: 13px;
+    }
+  
+    .text {
+      margin-left: 30px;
+    }
+    .Upper portion {
+      height: 600px;
+    }
+  
+
+.card {
+    padding: 200px; 
+    display:flex ;
+}
+
+
+
+.card-graphics {
+    width: 250px;
+    height: 250px;
+    border-radius: 1%;
+    padding: 25px;
+    margin-left: 5px;
+}
+.card-text{
+
+    font-size: small;
+}
+.heading{
+    margin: auto;
+    padding: 50%;
+}
